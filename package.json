@@ -1,0 +1,27 @@
+{
+  "name": "rn-test-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.4.1",
+    "react-native": "0.56.0"
+  },
+  "keywords": [],
+  "author": "Tagawa Hirotaka <wafuwafumariobaske@gmail.com> (https://tagawa.netlify.app/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^26.6.3",
+    "jest": "^23.6.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^17.0.1"
+  },
+  "jest": {
+    "preset": "react"
+  }
+}
